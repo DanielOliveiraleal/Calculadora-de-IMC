@@ -15,4 +15,5 @@ Fazer o cálculo do IMC é bem fácil. Primeiro, você vai multiplicar o valor d
 #Em seguida, é hora de trazer o seu peso para a equação. Ele deverá ser dividido pelo valor obtido acima. Pensando no mesmo exemplo anterior, se o seu peso for 60 quilos, a conta será:
 
 60 ÷ 2,56 = 23,43
+
 #Essa pessoa, portanto, tem um IMC considerado como sobrepeso.
