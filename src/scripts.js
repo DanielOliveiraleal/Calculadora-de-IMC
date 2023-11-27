@@ -1,4 +1,4 @@
-let butao = document.getElementById('butao');
+let botao = document.getElementById('butao');
 
 butao.addEventListener('click', ()=>{
     let inputAltura = parseInt(document.getElementById('inputAltura').value);

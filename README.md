@@ -1,10 +1,10 @@
-# Calculadora-de-imc
+# Calculadora De IMC
  :)
 
 #Como desenvolvedor iniciante, cada linha de código representa um passo na minha jornada de aprendizado. Se você encontrar imperfeições ou tiver sugestões, saiba que estou aberto a feedback para aprimorar minhas habilidades.
 
 #O que é o IMC?
- O IMC é uma fórmula que utiliza o peso e a altura de alguém para verificar se esse indivíduo se encontra em seu peso ideal — ou seja, saudável.
+O IMC é uma fórmula que utiliza o peso e a altura de alguém para verificar se esse indivíduo se encontra em seu peso ideal — ou seja, saudável.
 
 
 #Como fazer o cálculo do IMC?
