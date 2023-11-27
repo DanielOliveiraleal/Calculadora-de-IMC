@@ -1,6 +1,6 @@
-let botao = document.getElementById('butao');
+let botao = document.getElementById('botao');
 
-butao.addEventListener('click', ()=>{
+botao.addEventListener('click', ()=>{
     let inputAltura = parseInt(document.getElementById('inputAltura').value);
     let inputPeso = parseInt(document.getElementById('inputPeso').value);
     let resposta = document.getElementById('resposta'); 
@@ -31,6 +31,6 @@ butao.addEventListener('click', ()=>{
         resposta.innerHTML = `<span class="text-white text-3xl mt-5">Obesidade Grau III ou Mórbida</span>`
     }
     else{
-        resposta.innerHTML = `<span class="text-white text-lg text-center mx-3 mt-5">Algo saiu mal, verifique se digitou corretamente.</span>`
+        resposta.innerHTML = `<span class="text-red-500 text-lg text-center mx-3 mt-5">Algo saiu mal, verifique se você digitou corretamente.</span>`
     }
 })
