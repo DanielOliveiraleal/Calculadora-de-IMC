@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,32 @@
     <script src="/src/scripts.js" defer></script>
 </head>
 </head>
-<body class="bg-slate-950 w-screen h-screen">
-    
+
+<body class="bg-slate-950 w-screen h-screen flex justify-center items-center">
+    <main
+        class="w-11/12 h-5/6 sm:w-9/12  md:w-8/12 lg:w-5/12  xl:w-4/12 bg-slate-950 rounded-xl shadow-lg shadow-black">
+        <header class="w-full h-1/6 flex justify-center items-center">
+            <strong class="text-white text-4xl font-sans">Calculadora de IMC</strong>
+        </header>
+        <section class="w-full h-3/6">
+            <div class="w-full h-1/2  flex flex-col justify-center items-center gap-5">
+                <strong class="text-white text-4xl font-sans ">Altura(cm)</strong>
+                <input id="inputAltura" class="w-3/5 h-2/5 rounded-2xl outline-none text-center shadow-lg shadow-black"
+                    type="text">
+            </div>
+            <div class="w-full h-1/2 flex flex-col justify-center items-center gap-5">
+                <strong class="text-white text-3xl font-sans">Peso(kg)</strong>
+                <input id="inputPeso" class="w-3/5 h-2/5 rounded-2xl outline-none text-center shadow-lg shadow-black"
+                    type="text">
+            </div>
+        </section>
+        <div class="w-full h-2/6 flex flex-col items-center space-y-5">
+            <div id="resposta" class="w-full h-2/6 flex items-center justify-center"></div>
+            <button id="butao"class="bg-indigo-950 font-bold text-2xl text-white w-2/4 h-2/6 rounded-xl hover:w-4/6 ease-in duration-300">Resultado</button>
+        </div>
+    </main>
+
+
 </body>
+
 </html>
